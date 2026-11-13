@@ -46,11 +46,3 @@ indian-food-recognition/
 ├── app.py
 ├── requirements.txt
 ├── README.md
-├── report/
-│   └── project_report.pdf
-├── presentation/
-│   ├── slides.pptx
-│   └── demo_video_link.txt
-└── samples/
-    └── README.md
-```
