@@ -39,15 +39,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The first run downloads the model files from Hugging Face and may take several minutes. An internet connection is required for the first download.
 
-## Suggested evaluation
-- Make a test set with images not used during model training.
-- Record the expected class and predicted class for each image.
-- Report accuracy, precision, recall and F1-score only when you have a labelled test set.
-- Include examples of correct predictions, incorrect predictions and unsupported foods.
-
-## Suggested repository structure
+## app structure
 ```text
 indian-food-recognition/
 ├── app.py
@@ -61,12 +54,3 @@ indian-food-recognition/
 └── samples/
     └── README.md
 ```
-
-## Suggested team contribution section
-Replace these placeholders with actual names, roll numbers and real contributions:
-- Member 1: application implementation and integration.
-- Member 2: dataset research, testing and evaluation.
-- Member 3: report and presentation.
-- Member 4: documentation and demonstration.
-
-Do not claim work that was not performed.
